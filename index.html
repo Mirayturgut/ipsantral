@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Santral</title>
+  <link rel="stylesheet" href="assets/css/dijital.css">
+  <link rel="icon" type="image/png" href="./assets/img/ipsoft_favicon_32.png">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- Top Header Start -->
+    <header>
+      <div class="nav-top-menu">
+        <a href="#">İletişim</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Blog</a>
+      </div>
+    </header>
+    <!-- Top Header End  -->
+
+    <!-- Main Navbar Start  -->
+    <div class="navbar">
+      <div class="logo">
+        <a href="#"><img src="./assets/img/ip-soft-logo.png" alt="Company Logo"></a>
+      </div>
+      <nav class="nav-center">
+        <ul class="nav-links">
+          <!-- Hizmetler with Service Cards Mega Menu -->
+          <li class="nav-item has-mega">
+            <a href="#">Hizmetler</a>
+            <div class="mega-menu mega-services">
+
+              <!-- Left Side - Service Cards -->
+              <div class="services-left">
+
+                <!-- Bulut Santral Card -->
+                <div class="service-card" data-service="bulut">
+                  <div class="icon-container teal">
+                    <div class="cloud-icon"></div>
+                  </div>
+                  <div class="service-info">
+                    <h3 class="service-title">Bulut Santral</h3>
+                    <p class="service-description">İnternet üzerinden santral</p>
+                  </div>
+                  <span class="arrow">›</span>
+                </div>
+
+                <!-- Çağrı Merkezi Card -->
+                <div class="service-card" data-service="cagri">
+                  <div class="icon-container cyan">
+                    <div class="headphones-icon"></div>
+                  </div>
+                  <div class="service-info">
+                    <h3 class="service-title">Çağrı Merkezi</h3>
+                    <p class="service-description">Profesyonel çağrı yönetimi</p>
+                  </div>
+                  <span class="arrow">›</span>
+                </div>
+
+                <!-- SMS Card -->
+                <div class="service-card" data-service="sms">
+                  <div class="icon-container purple">
+                    <div class="message-icon"></div>
+                  </div>
+                  <div class="service-info">
+                    <h3 class="service-title">SMS</h3>
+                    <p class="service-description">Toplu mesaj hizmetleri</p>
+                  </div>
+                  <span class="arrow">›</span>
+                </div>
+
+                <!-- Sabit Telefon Card -->
+                <div class="service-card" data-service="sabit">
+                  <div class="icon-container blue">
+                    <div class="phone-icon"></div>
+                  </div>
+                  <div class="service-info">
+                    <h3 class="service-title">Sabit Telefon</h3>
+                    <p class="service-description">Kurumsal telefon hatları</p>
+                  </div>
+                  <span class="arrow">›</span>
+                </div>
+
+                <!-- IT Çözümleri Card -->
+                <div class="service-card" data-service="it">
+                  <div class="icon-container orange">
+                    <div class="laptop-icon"></div>
+                  </div>
+                  <div class="service-info">
+                    <h3 class="service-title">IT Çözümleri</h3>
+                    <p class="service-description">Teknoloji altyapı hizmetleri</p>
+                  </div>
+                  <span class="arrow">›</span>
+                </div>
+
+              </div>
+
+              <!-- Right Side - Service Options -->
+              <div class="services-right">
+
+                <!-- Bulut Santral Options -->
+                <div class="service-options active" id="bulut">
+                  <h4>Bulut Santral</h4>
+                  <ul>
+                    <li><a href="#">IP Santral Hizmeti</a></li>
+                    <li><a href="#">Numara Taşıma</a></li>
+                    <li><a href="#">Dijital Faks</a></li>
+                    <li><a href="#">Bulut FCT</a></li>
+                    <li><a href="#">APİ Servisler</a></li>
+                    <li><a href="#">PBX Panel</a></li>
+                  </ul>
+                </div>
+
+                <!-- Çağrı Merkezi Options -->
+                <div class="service-options" id="cagri">
+                  <h4>Çağrı Merkezi</h4>
+                  <ul>
+                    <li><a href="#">Çağrı Merkezi Yazılımı</a></li>
+                    <li><a href="#">Çağrı Merkezi</a></li>
+                    <li><a href="#">Numara Taşıma</a></li>
+                  </ul>
+                </div>
+
+                <!-- SMS Options -->
+                <div class="service-options" id="sms">
+                  <h4>SMS Hizmetleri</h4>
+                  <ul>
+                    <li><a href="#">Toplu SMS</a></li>
+                    <li><a href="#">OTP SMS</a></li>
+                    <li><a href="#">Sesli Mesaj</a></li>
+                    <li><a href="#">İleti Yönetim Sistemi</a></li>
+                  </ul>
+                </div>
+
+                <!-- Sabit Telefon Options -->
+                <div class="service-options" id="sabit">
+                  <h4>Sabit Telefon</h4>
+                  <ul>
+                    <li><a href="#">Whatsapp Hattı</a></li>
+                    <li><a href="#">0800'lü Numara</a></li>
+                    <li><a href="#">Coğrafi Numara</a></li>
+                    <li><a href="#">0850'li Numaralar</a></li>
+                  </ul>
+                </div>
+
+                <!-- IT Çözümleri Options -->
+                <div class="service-options" id="it">
+                  <h4>IT Çözümleri</h4>
+                  <ul>
+                    <li><a href="#">Lisans Hizmetleri</a></li>
+                    <li><a href="#">Bakım Onarım</a></li>
+                    <li><a href="#">Yapısal Kablolama</a></li>
+                    <li><a href="#">Bilgisayar Bakım Anlaşması</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <!-- Çözümler with Column Mega Menu -->
+          <li class="nav-item has-mega">
+            <a href="#">Çözümler</a>
+            <div class="mega-menu mega-solutions">
+              <div class="mega-column">
+                <h4>İhtiyaca Göre</h4>
+                <ul>
+                  <li><a href="#">Çağrı Merkezi Yazılımı</a></li>
+                  <li><a href="#">Uzaktan Çalışma</a></li>
+                  <li><a href="#">Kurumsal VoIP Hizmeti</a></li>
+                  <li><a href="#">Mobil Uygulama ile Kullanım</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-column">
+                <h4>Sektöre Göre</h4>
+                <ul>
+                  <li><a href="#">Sağlık</a></li>
+                  <li><a href="#">E-ticaret</a></li>
+                  <li><a href="#">Eğitim</a></li>
+                  <li><a href="#">Turizm</a></li>
+                  <li><a href="#">Danışmanlık</a></li>
+                  <li><a href="#">Dernek Sendika</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Regular Nav Items -->
+          <li class="nav-item"><a href="#">Fiyatlar</a></li>
+          <li class="nav-item"><a href="#">Geliştiriciler</a></li>
+          <li class="nav-item"><a href="#">Neden IpSoft</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Side Buttons -->
+      <div class="nav-right">
+        <div class="btn-dropdown">
+          <button class="btn btn-outline">Online İşlemler</button>
+          <div class="dropdown-menu">
+            <a href="#">Sabit Numara - SMS - Netsantral</a>
+            <a href="#">Ev/İş İnterneti</a>
+            <a href="#">GSM (Mobil Hat)</a>
+          </div>
+        </div>
+        <button class="btn btn-solid">Üyelik</button>
+      </div>
+      <!-- HAMBURGER BUTON -->
+      <button class="hamburger" aria-label="Menüyü aç/kapat">
+        ☰
+      </button>
+    </div>
+    <!-- Main Navbar End -->
+
+    <!-- Section Start -->
+    <section class="section">
+      <div class="section-title">
+        <h1>IPSoft'da Her Şey Dijital!</h1>
+        <p>Tüm hizmetlere online abone olmak veya mevcut hattınızı Netgsm'e taşımak için</p>
+        <div class="section-buton">
+          <a href="#">Hemen Başla</a>
+          <img src="./assets/img/spiral-arrow.svg" alt="">
+        </div>
+
+      </div>
+      <div class="section-img">
+        <img src="./assets/img/section-img.png" alt="">
+      </div>
+    </section>
+    <!-- Section end -->
+
+    <!-- Hizmet Yönlendirme Alanı Start -->
+    <div class="services-row">
+      <div class="service-card">
+        <span class="icon1">☁️</span>
+        Bulut Santral
+      </div>
+
+      <div class="service-card">
+        <span class="icon1">☎️</span>
+        Çağrı Merkezi
+      </div>
+
+      <div class="service-card">
+        <span class="icon1">✉️</span>
+        SMS (Kısa Mesaj)
+      </div>
+
+      <div class="service-card">
+        <span class="icon1">📞</span>
+        Sabit Telefon
+      </div>
+
+      <div class="service-card">
+        <span class="icon1">👨🏻‍💻</span>
+        IT Çözümleri
+      </div>
+    </div>
+    <!-- Hizmet Yönlendirme Alanı End-->
+
+    <!-- Left Side - Accordion Start -->
+    <div class="support-wrapper">
+      <div class="accordion-section">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h3 class="accordion-title">Destek Süreci</h3>
+            <span class="accordion-icon">⌄</span>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-text">
+              Hızlı ve çözüm odaklı destek süreci ile mutlu müşteriler.
+            </p>
+            <p class="accordion-text">
+              Mümkün olan en kısa zamanda ve BTK (Bilgi Teknolojileri ve İletişim Kurumu)'nun belirlediği süreler
+              içerisinde uzman ekipler tarafından talepleriniz incelenir ve çözümlenir. Teknik destek talepleriniz,
+              alanında uzman müşteri temsilcilerimiz tarafından sonuca ulaştırılır. Talebin durumuna göre çözüm
+              merkezine aktarılır, destek ekiplerimizin analizi sonucunda gerektiğinde teknik ekibimize iş emri
+              gönderilir ve süreç anlık takip edilir.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item active">
+          <div class="accordion-header">
+            <h3 class="accordion-title">Sağlam Altyapı</h3>
+            <span class="accordion-icon">⌄</span>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-text">
+              Kesintisiz iletişim için kendimize ait bağımsız Tier III seviyesinde 2, Türkiye'nin farklı lokasyonlarında
+              6 veri merkezinde barındırmaktayız.
+            </p>
+            <p class="accordion-text">
+              Teknik ve Müşteri Destek altyapılarımızın tamamı Netgsm mühendisleri tarafından geliştirilmiştir.
+              Abonelerimizin geri dönüşlerine göre sürekli güncellenmektedir.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h3 class="accordion-title">API Entegrasyon</h3>
+            <span class="accordion-icon">⌄</span>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-text">
+              IP Soft'larınızı keşfedin.
+            </p>
+            <p class="accordion-text">
+              Tüm iletişim hizmetlerimizi, aboneliğinize bağlı bir alt kullanıcı oluşturarak ve API entegrasyonu ile
+              yazılımlarınıza entegre edebilirsiniz. </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h3 class="accordion-title">Gizlilik</h3>
+            <span class="accordion-icon">⌄</span>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-text">
+
+              Gizliliğinize önem veriyoruz. 5809 sayılı kanun ve tüm mevzuata uygun önlemlerimizi alıyoruz.
+            </p>
+            <p class="accordion-text">
+              KVKK uyum süreçleri ve eğitimleri ile kişisel verilerinizi korumak için önlem alıyor ve özen gösteriyoruz.
+            </p>
+            <p class="accordion-text">
+              Tüm uç noktalar arasında TLS ve SRTP şifrelemesi ile iletişiminizi koruyoruz.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h3 class="accordion-title">Güvenlik</h3>
+            <span class="accordion-icon">⌄</span>
+          </div>
+          <div class="accordion-content">
+            <p class="accordion-text">
+              Uçtan uca güvenli iletişiminizi ve verilerinizi korumak için özen gösteriyoruz.
+            </p>
+            <p class="accordion-text">
+              Güvenliği ciddiye alıyoruz. Tüm Netgsm Ağı ISO 27001 sertifikası tarafından belirlenen güvenlik
+              kriterlerini karşılar.
+            </p>
+            <p class="accordion-text">
+              İletişim bilgileriniz ve kullanımlarınız şifrelenerek/saklanarak platform güvenliğinizi artırıyoruz.
+            </p>
+          </div>
+        </div>
+      </div>
+ <!-- Right Side - Image with Floating Cards -->
+      <div class="image-section">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop"
+          alt="Customer Service" class="main-image">
+
+        <div class="floating-card stats-card">
+          <div class="chart-icon">
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+          </div>
+          <h4>Çağrı İstatistiği</h4>
+        </div>
+
+        <div class="floating-card rating-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="rating-text">Mutlu Abone</div>
+          <div class="avatars">
+            <div class="avatar">A</div>
+            <div class="avatar">B</div>
+            <div class="avatar">C</div>
+            <div class="avatar">+</div>
+          </div>
+        </div>
+
+        <svg class="dashed-arrow" viewBox="0 0 150 100">
+          <path class="dashed-path" d="M10,10 Q75,80 140,40" />
+        </svg>
+      </div>
+    
+    </div>
+
+
+    <script>
+      const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+      accordionHeaders.forEach(header => {
+        header.addEventListener('click', function () {
+          const accordionItem = this.parentElement;
+          const isActive = accordionItem.classList.contains('active');
+
+          // Close all accordion items
+          document.querySelectorAll('.accordion-item').forEach(item => {
+            item.classList.remove('active');
+          });
+
+          // Open clicked item if it wasn't active
+          if (!isActive) {
+            accordionItem.classList.add('active');
+          }
+        });
+      });
+    </script>
+    <!-- Left Side - Accordion End-->
+
+    <!-- Article Start -->
+    <div class="article">
+      <div class="articles">
+        <div class="article-title">
+          <h3>Çağrı Merkezi Hizmeti ve Yazılımı</h3>
+          <h2>Her Çağrıda Daha Hızlı, <br> Daha Akıllı</h2>
+          <p style="color:#555; font-size:16px; max-width:90%;">
+            Akıllı yönlendirme, anlık izleme ve gelişmiş raporlama özellikleriyle müşteri deneyimini güçlendirir.
+            Ölçeklenebilir
+            yapısıyla her işletmeye profesyonel ve kesintisiz iletişim sağlar.
+          </p>
+        </div>
+        <div class="article-img">
+          <img src="./assets/img/cagrımerkezii.png" alt="">
+        </div>
+      </div>
+      <div class="articles">
+        <div class="article-title">
+          <h3>Bulut Santral Hizmeti ve Yazılımı</h3>
+          <h2>Geleceğin İletişim Altyapısı: <br> Akıllı Bulut Santral</h2>
+          <p style="color:#555; font-size:16px; max-width:90%;">
+            İletişiminizi hızlandıran, operasyonlarınızı kolaylaştıran akıllı bulut santral çözümleri sunuyoruz.
+            Esnek yapısı, güçlü güvenliği ve gelişmiş raporlama özellikleriyle tüm iletişim süreçlerinizi tek
+            platformdan yönetin.
+          </p>
+        </div>
+        <div class="article-img">
+          <img src="./assets/img/bulutsantral.png" alt="Bulut Santral">
+        </div>
+      </div>
+
+
+
+
+    </div>
+    <!-- Article End -->
+
+    <!--Prices Cards Start -->
+    <div class="prices">
+      <img src="./assets/img/referans.png" alt="">
+      <div class="total-prices">
+        <div class="pricing-intro">
+          <h2>İletişim Gücünüzü Artıran Profesyonel Planlar</h2>
+          <p>
+            Bulut santral ve çağrı merkezi çözümlerimizle müşteri deneyiminizi güçlendirirken
+            operasyon maliyetlerinizi düşürün. İşletmenizin büyüme hızına uygun, ölçeklenebilir
+            ve şeffaf fiyatlandırma yapısı ile ihtiyacınız olan tüm özelliklere tek platformdan erişin.
+          </p>
+        </div>
+
+        <div class="prices-cards">
+          <div class="price-card">
+  <div class="price-row">
+    <!-- SOL -->
+    <div class="left">
+      <h2>$50<span> /ay</span></h2>
+      <h3>Gelişmiş</h3>
+      <p>Empati haritalarını oluşturun ve sonuçları geliştirin.</p>
+    </div>
+
+    <!-- ORTA -->
+    <ul class="middle">
+      <li class="checked">7/24 destek</li>
+      <li class="checked">5 izleme listesi dahil</li>
+      <li class="checked">Tüm özelliklere erişim</li>
+      <li>Özel premium bileşenler</li>
+    </ul>
+
+    <!-- SAĞ -->
+    <div class="right">
+      <button class="button">Satın al</button>
+    </div>
+  </div>
+           </div>
+          <div class="price-card">
+  <div class="price-row">
+    <!-- SOL -->
+    <div class="left">
+      <h2>$50<span> /ay</span></h2>
+      <h3>Gelişmiş</h3>
+      <p>Empati haritalarını oluşturun ve sonuçları geliştirin.</p>
+    </div>
+
+    <!-- ORTA -->
+    <ul class="middle">
+      <li class="checked">7/24 destek</li>
+      <li class="checked">5 izleme listesi dahil</li>
+      <li class="checked">Tüm özelliklere erişim</li>
+      <li>Özel premium bileşenler</li>
+    </ul>
+
+    <!-- SAĞ -->
+    <div class="right">
+      <button class="button">Satın al</button>
+    </div>
+  </div>
+           </div>
+          <div class="price-card">
+  <div class="price-row">
+    <!-- SOL -->
+    <div class="left">
+      <h2>$50<span> /ay</span></h2>
+      <h3>Gelişmiş</h3>
+      <p>Empati haritalarını oluşturun ve sonuçları geliştirin.</p>
+    </div>
+
+    <!-- ORTA -->
+    <ul class="middle">
+      <li class="checked">7/24 destek</li>
+      <li class="checked">5 izleme listesi dahil</li>
+      <li class="checked">Tüm özelliklere erişim</li>
+      <li>Özel premium bileşenler</li>
+    </ul>
+
+    <!-- SAĞ -->
+    <div class="right">
+      <button class="button">Satın al</button>
+    </div>
+  </div>
+           </div>
+
+
+         
+        </div>
+      </div>
+      <!--Prices Cards End  -->
+
+      <section class="products">
+        <div class="products-header">
+          <div class="products-title">
+            <span class="products-badge">SİZİN İÇİN SEÇTİKLERİMİZ!</span>
+            <h2>Ürünler</h2>
+          </div>
+
+          <a href="#" class="products-cta">
+            Ürünleri Keşfet
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="product-list">
+          <!-- Kart 1 -->
+          <article class="product-card">
+            <img src="./assets/img/tel1.jpg" alt="Edge B10 IP (Polycom)">
+            <h3>Edge B10 IP (Polycom)</h3>
+            <p>AÇIK SIP – 8 Hat Bağlantısı – Aydınlatmalı Tuşlar (Yenilenmiş).</p>
+          </article>
+
+          <!-- Kart 2 -->
+          <article class="product-card">
+            <img src="./assets/img/tel2.png" alt="Yealink SIP–T58A">
+            <h3>Yealink SIP–T58A</h3>
+            <p>HD ses ve görüntülü arama deneyimi sağlayan medya telefonudur.</p>
+          </article>
+
+          <!-- Kart 3 -->
+          <article class="product-card">
+            <img src="./assets/img/tel3.jpg" alt="Poly Edge E450 IP">
+            <h3>Poly Edge E450 IP</h3>
+            <p>Poly Edge E400 Serisi, iki ekran ve on dört satırlı tuş takımı ile gelir.</p>
+          </article>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--Prices Cards End -->
+
+    <!-- İnfo-Section Start -->
+    <section class="info-section">
+
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="./assets/img/icon-cloud.png" alt="">
+        </div>
+        <h3>Bulut Santral Nedir?</h3>
+        <p>
+          Bulut Santral, işletmelerin tüm çağrı trafiğini internet üzerinden yönetmesini
+          sağlayan sanal bir telefon santralidir. Ek donanım gerektirmez, tamamen
+          bulut tabanlıdır ve her yerden yönetilebilir.
+        </p>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="./assets/img/icon-headset.png" alt="">
+        </div>
+        <h3> 0850’li numara alabilir miyim?</h3>
+        <p>
+          Evet, IP Santral Telekomünikasyon olarak işletmenizin ihtiyacına uygun 0850 numaraları hızlı şekilde tahsis
+          ediyoruz.
+        </p>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">
+          <img src="./assets/img/icon-integration.png" alt="">
+        </div>
+        <h3>Çağrı kayıtları güvenli bir şekilde saklanıyor mu?</h3>
+        <p>
+          Bulut Santral hizmetimizde kurulum süresi ortalama 15–30 dakika arasındadır.
+          Firmanız açıldığı gün içinde sistemi kullanmaya başlayabilirsiniz.
+        </p>
+      </div>
+    </section>
+    <!-- İnfo-Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-2">
+        <div class="footer-title">
+          <a href="#"><img src="./assets/img/ip-soft-logo.png" alt=""></a>
+          <p>Alt kesimi hedefleme olasılığını da içeren yenilikçi, alışılmışın dışında fikirler üret.</p>
+          <div class="medias">
+            <a href="#"><img src="./assets/img/miniface.png" alt="Facebook İcon"></a>
+            <a href="#"><img src="./assets/img/minigoogle.png" alt="Google İcon"></a>
+            <a href="#"><img src="./assets/img/miniinsta.png" alt="İnstagram İcon"></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Kaynaklar</h4>
+            <ul>
+              <li><a href="#">Topluluk</a></li>
+              <li><a href="#">Etkinlikler</a></li>
+              <li><a href="#">Yardım Merkezi</a></li>
+              <li><a href="#">İş Ortakları</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Ürünler</h4>
+            <ul>
+              <li><a href="#">Entegrasyonlar</a></li>
+              <li><a href="#">Çözümler</a></li>
+              <li><a href="#">Özellikler</a></li>
+              <li><a href="#">Kurumsal</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="email-form2">
+          <h3>E-posta Bildirimleri Al</h3>
+          <p>Farklı düşün, yenilikçi fikirler üret ve daha düşük hedef kitleye ulaşma olasılığını değerlendir.</p>
+          <div class="butons">
+            <input type="email2" placeholder="E-posta adresiniz..." required>
+            <button type="submit2">Gönder</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="media">
+        <p>© 2025 İP Santral Telekomünikasyon - Tüm Hakları Saklıdır.</p>
+      </div>
+
+    </footer>
+
+    <!-- Footer End  -->
+  </div>
+  <!-- JS Start-->
+  <script>
+    // Service card interaction
+    document.addEventListener('DOMContentLoaded', function () {
+      const serviceCards = document.querySelectorAll('.service-card');
+      const serviceOptions = document.querySelectorAll('.service-options');
+
+      serviceCards.forEach(card => {
+        // Click event
+        card.addEventListener('click', function () {
+          const serviceId = this.getAttribute('data-service');
+
+          // Remove active from all cards
+          serviceCards.forEach(c => c.classList.remove('active'));
+
+          // Add active to clicked card
+          this.classList.add('active');
+
+          // Hide all options
+          serviceOptions.forEach(option => option.classList.remove('active'));
+
+          // Show selected options
+          document.getElementById(serviceId).classList.add('active');
+        });
+
+        // Hover event
+        card.addEventListener('mouseenter', function () {
+          const serviceId = this.getAttribute('data-service');
+
+          // Remove active from all cards
+          serviceCards.forEach(c => c.classList.remove('active'));
+
+          // Add active to hovered card
+          this.classList.add('active');
+
+          // Hide all options
+          serviceOptions.forEach(option => option.classList.remove('active'));
+
+          // Show selected options
+          document.getElementById(serviceId).classList.add('active');
+        });
+      });
+    });
+  </script>
+  <script>
+    // Service Menu Switching Logic
+    document.addEventListener('DOMContentLoaded', function () {
+
+      // Get all service buttons and detail sections
+      const serviceButtons = document.querySelectorAll('.service-btn');
+      const serviceDetails = document.querySelectorAll('.service-detail');
+
+      // Add click event to each service button
+      serviceButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          // Get the parent service-item
+          const serviceItem = this.closest('.service-item');
+          const targetId = serviceItem.getAttribute('data-target');
+
+          // Remove active class from all buttons
+          serviceButtons.forEach(btn => btn.classList.remove('active'));
+
+          // Add active class to clicked button
+          this.classList.add('active');
+
+          // Hide all service details
+          serviceDetails.forEach(detail => detail.classList.remove('active'));
+
+          // Show the target service detail
+          const targetDetail = document.getElementById(targetId);
+          if (targetDetail) {
+            targetDetail.classList.add('active');
+          }
+        });
+
+        // Also add hover functionality
+        button.addEventListener('mouseenter', function () {
+          const serviceItem = this.closest('.service-item');
+          const targetId = serviceItem.getAttribute('data-target');
+
+          // Remove active class from all buttons
+          serviceButtons.forEach(btn => btn.classList.remove('active'));
+
+          // Add active class to hovered button
+          this.classList.add('active');
+
+          // Hide all service details
+          serviceDetails.forEach(detail => detail.classList.remove('active'));
+
+          // Show the target service detail
+          const targetDetail = document.getElementById(targetId);
+          if (targetDetail) {
+            targetDetail.classList.add('active');
+          }
+        });
+      });
+
+      // Close mega menu when clicking outside
+      document.addEventListener('click', function (event) {
+        const megaMenus = document.querySelectorAll('.mega-menu, .mega-menu1');
+        const navItems = document.querySelectorAll('.nav-item.has-mega');
+
+        let clickedInside = false;
+
+        navItems.forEach(item => {
+          if (item.contains(event.target)) {
+            clickedInside = true;
+          }
+        });
+
+        if (!clickedInside) {
+          // Optional: You can add logic here to close menus
+          // For now, CSS handles the hover state
+        }
+      });
+
+    });
+  </script>
+  <script>
+   const navbar = document.querySelector('.navbar');
+   const hamburger = document.querySelector('.hamburger');
+
+   hamburger.addEventListener('click', () => {
+   navbar.classList.toggle('is-open');
+   });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const navCenter = document.querySelector('.nav-center');
+  const navItemsWithMega = document.querySelectorAll('.nav-item.has-mega');
+
+  // Toggle hamburger menu
+  hamburger.addEventListener('click', function() {
+    navCenter.classList.toggle('active');
+    this.textContent = navCenter.classList.contains('active') ? '✕' : '☰';
+  });
+
+  // Toggle mega menu on mobile
+  navItemsWithMega.forEach(item => {
+    const link = item.querySelector('a');
+    
+    if (window.innerWidth <= 1024) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        item.classList.toggle('active');
+      });
+    }
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!navCenter.contains(e.target) && !hamburger.contains(e.target)) {
+      navCenter.classList.remove('active');
+      hamburger.textContent = '☰';
+    }
+  });
+
+  // Service card interaction (existing code)
+  const serviceCards = document.querySelectorAll('.service-card');
+  const serviceOptions = document.querySelectorAll('.service-options');
+
+  serviceCards.forEach(card => {
+    card.addEventListener('click', function() {
+      const serviceId = this.getAttribute('data-service');
+      
+      serviceCards.forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      
+      serviceOptions.forEach(option => option.classList.remove('active'));
+      document.getElementById(serviceId).classList.add('active');
+    });
+
+    card.addEventListener('mouseenter', function() {
+      if (window.innerWidth > 1024) {
+        const serviceId = this.getAttribute('data-service');
+        
+        serviceCards.forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        
+        serviceOptions.forEach(option => option.classList.remove('active'));
+        document.getElementById(serviceId).classList.add('active');
+      }
+    });
+  });
+});
+  </script>
+
+
+  <!-- JS End-->
+</body>
+
+</html>
